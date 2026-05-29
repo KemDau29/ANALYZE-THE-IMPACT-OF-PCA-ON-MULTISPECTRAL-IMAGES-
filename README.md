@@ -33,6 +33,11 @@ The project is designed to run on the Kaggle platform.
 
 The datasets are processed into .npy batches to manage memory efficiently.
 
+## Reference
+1. PCA/SVM Training: https://www.kaggle.com/code/riatleozia/eurosat-image-classifier-with-svm-after-pca   
+2. Data processing: https://www.kaggle.com/code/riatleozia/ingestion-for-pca-svm  
+3. Raw data SVM Traning: https://www.kaggle.com/code/riatleozia/eurosat-image-classifier-with-svm-raw 
+
 The PCA engine performs eigen-decomposition on the covariance matrix.
 
 SVM models are serialized using joblib for reusability.
